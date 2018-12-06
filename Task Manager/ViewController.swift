@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Making outlets for each button
+        
     }
-
-
+    @IBOutlet weak var addNewTaskButton: UIButton!
+    
+    @IBOutlet weak var seeAllTaskButton: UIButton!
+    
+    @IBOutlet weak var deleteATaskButton: UIButton!
+    
 }
 

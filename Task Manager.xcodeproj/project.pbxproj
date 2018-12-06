@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		197C813F21B02EE500AEDC6B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C813E21B02EE500AEDC6B /* Task.swift */; };
+		19B909AB21B1905E00ED8DBD /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B909AA21B1905E00ED8DBD /* NewTask.swift */; };
+		19B909AD21B1B88800ED8DBD /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B909AC21B1B88800ED8DBD /* cell.swift */; };
 		19FF020B21AED91E00E3F122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF020A21AED91E00E3F122 /* AppDelegate.swift */; };
 		19FF020D21AED91E00E3F122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF020C21AED91E00E3F122 /* ViewController.swift */; };
 		19FF021021AED91E00E3F122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FF020E21AED91E00E3F122 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		197C813E21B02EE500AEDC6B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		19B909AA21B1905E00ED8DBD /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		19B909AC21B1B88800ED8DBD /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		19FF020721AED91E00E3F122 /* Task Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FF020A21AED91E00E3F122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FF020C21AED91E00E3F122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				19FF021121AED92100E3F122 /* Assets.xcassets */,
 				19FF021321AED92100E3F122 /* LaunchScreen.storyboard */,
 				19FF021621AED92100E3F122 /* Info.plist */,
+				197C813E21B02EE500AEDC6B /* Task.swift */,
+				19B909AA21B1905E00ED8DBD /* NewTask.swift */,
+				19B909AC21B1B88800ED8DBD /* cell.swift */,
 			);
 			path = "Task Manager";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FF020D21AED91E00E3F122 /* ViewController.swift in Sources */,
+				19B909AB21B1905E00ED8DBD /* NewTask.swift in Sources */,
+				197C813F21B02EE500AEDC6B /* Task.swift in Sources */,
+				19B909AD21B1B88800ED8DBD /* cell.swift in Sources */,
 				19FF020B21AED91E00E3F122 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999FX9M6BF;
 				INFOPLIST_FILE = "Task Manager/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebspillman.Task-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999FX9M6BF;
 				INFOPLIST_FILE = "Task Manager/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebspillman.Task-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
